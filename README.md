@@ -1,17 +1,32 @@
-# Separador Silábico
+# Separador Silábico 📖
 
-Uma ferramenta simples e eficaz desenvolvida em Node.js para separar palavras em sílabas. Perfeita para aplicações educacionais, processamento de linguagem natural ou qualquer outro projeto que necessite de análise silábica.
+Bem-vindo ao Separador Silábico! Este é um utilitário desenvolvido em Node.js para separar palavras em sílabas de acordo com as regras da língua portuguesa.
 
-## 🚀 Início Rápido
+## 🌟 Características:
+
+1. **🔍 Análise Precisa**: Utiliza expressões regulares para identificar e separar sílabas.
+2. **📝 Suporte à Língua Portuguesa**: Projetado especificamente para a língua portuguesa, considerando suas regras e exceções.
+3. **🚀 Rápido e Eficiente**: Processa palavras rapidamente, fornecendo resultados precisos.
+
+## 🚀 Começando
+
+### Pré-requisitos
+
+- Node.js instalado em sua máquina.
 
 ### Instalação
 
-1. **Clone o repositório**: `git clone https://github.com/Grillekkj/Separador-Silabico.git` ou simplesmente copie o conteúdo do arquivo index.js.
-2. **Adicione ao seu projeto**: Mova o arquivo para o diretório desejado dentro do seu projeto.
-### Uso
-1. **Importe a função**: `const { syllable } = require('./caminho_para_o_arquivo');`
-2. **Utlize a função**: 
-```
-const resultado = syllable('Sua palavra ou frase');
-console.log(resultado); // Saída: Palavra ou frase dividida em sílabas.
-```
+1. **Clone este repositório**
+  ```bash
+  git clone https://github.com/Grillekkj/Separador-Silabico.git
+  ```
+
+2. **Navegue até a pasta do projeto**
+  ```bash
+  cd Separador-Silabico
+  ```
+
+3. **Para usar o separador silábico, importe o módulo em seu projeto e utilize a função syllable.**
+  ```bash
+  syllable("palavra ou frase")
+  ```
